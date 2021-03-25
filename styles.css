@@ -1,0 +1,230 @@
+.navbar{
+	background-color:#088BBF;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 70px;
+	text-align: center;
+	-webkit-box-shadow: 0 1px 2px rgba(0,0,0,0.15);
+	-moz-box-shadow: 0 1px 2px rgba(0,0,0,0.15);
+	box-shadow: 0 1px 2px rgba(0,0,0,0.15);
+	-webkit-transition: all 0.4s ease;
+	transition: all 0.4s ease;
+}
+.navbar.color-change {
+  background-color: #f45b69;
+  height: 50px;
+  color: rgba(255,254,255,0.8);
+}
+.navbar text-size{
+  font-size: 2em;
+  width: 250px;
+  line-height: 70px;
+}
+.text-size{
+	font-family:'Poppins', sans-serif;
+	font-size: 20px;
+}
+.icon-popup{
+	font-size:40px;
+}
+.popup {
+  background: rgba(0, 0, 0, 0.6);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 30px;
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
+
+.popup-content {
+  height: 550px;
+  width: 450px;
+  background: #fff;
+  padding: 20px;
+  position: relative;
+}
+
+input {
+  margin: 20px auto;
+  display: block;
+  width: 50%;
+  padding: 8px;
+  border: 1px solid gray;
+}
+
+.close {
+  position: relative;
+  top: -15px;
+  right: -15px;
+  background: #fff;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  box-shadow: 6px 6px 29px -4px rgba(0, 0, 0, 0.75);
+  cursor: pointer;
+}
+.popup1 {
+  background: rgba(0, 0, 0, 0.6);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 30px;
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
+.popup-content1 {
+  height: 450px;
+  width: 950px;
+  background: #fff;
+  padding: 20px;
+  position: relative;
+}
+@media (max-width:767px){
+	.wrapper{padding: 50px 10px;}
+}
+
+.slick-slider{
+	min-width: 0;
+}
+
+.slick-list {
+	overflow: hidden;
+}
+
+.slick-track{
+	display: flex;
+	align-items: flex-start;
+}
+.slider {
+	position: relative;
+	padding:4em 1em;
+}
+
+@media (max-width:767px){
+	.slider {
+		padding: 0px 40px;
+	}
+}
+
+.slick-arrow{
+	padding: 0;
+	margin: 0;
+	border: 0;
+	box-sizing: border-box;
+	position: absolute;
+	top: 50%;
+	margin: -30px 0px 0px 0px;
+	z-index: 10;
+	font-size: 0;
+	width: 30px;
+	height: 60px;
+}
+.slick-prev{
+	left: 0;
+	background: url('sl-arrow_l.png') 0 0 / 100% no-repeat;
+}
+.slick-next{
+	right: 0;
+	background: url('sl-arrow_r.png') 0 0 / 100% no-repeat;
+}
+.slick-disabled{
+	opacity: 0.2;
+}
+.slider__item {
+	padding: 0px 15px;
+}
+.image{
+	border-radius: 50px 50px;
+	height: 100px;
+	width:auto;
+}
+.text-size1{
+	font-family: 'Lato', sans-serif;
+}
+.footer-logo{
+	font-size: 150px;
+}
+.text-size2{
+	font-family:'Poppins', sans-serif;
+	font-size: 60px;
+}
+.text-size3{
+	font-family:'Poppins', sans-serif;
+	font-size: 30px;
+}
+.circle-button{
+  font-family: 'Roboto', sans-serif;
+  color: #ccc;
+  display: inline-block;
+  font-size: 2rem;
+  border-radius: 60%;
+  transition: all 0.2s ease;
+}
+
+.circle-button:hover{
+  animation: circle-anim 0.3s ease forwards;
+  transition: all 0.4s ease;
+}
+
+.grow-container{
+  display: inline-block;
+  margin: 1em;
+}
+
+.to-red:hover{
+  background: #E5393F;
+}
+
+.to-twitter:hover{
+  background: #1DA1F3;
+}
+
+.to-facebook:hover{
+  background: #3B5998;
+}
+
+.to-linkedin:hover{
+  background: #0077B5;
+}
+
+.to-reddit:hover{
+  background: #FF4500;
+}
+
+@keyframes circle-anim{
+  0% {
+    
+  }
+  
+  90%{
+    padding: 0.35em;
+    margin: -0.35em; 
+  }
+  
+  100%{
+    padding: 0.25em;
+    margin: -0.25em; 
+  }
+}
+.cont-img{
+	margin-top: 60px;
+	height: 90vh;
+	background-size: cover;
+	background-image: url("https://images.prismic.io/etswebsiteprod/9e44e2fa-bba5-4ddb-843c-a1a5d72c3827_profile-students.jpg?auto=compress,format&rect=0,500,6000,3000&w=1200&h=600");
+}
+.textOverImage{
+	color:#fff;
+	padding-top: 200px;
+	padding-left: 400px;
+	left:400px;
+	font-family:'Roboto', sans-serif;
+	font-size: 80px;
+}
+.buttonOverImage{
+	padding-left: 520px;
+	font-family:'Roboto',sans-serif;
+}
